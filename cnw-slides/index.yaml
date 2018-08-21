@@ -1,0 +1,12 @@
+- date: 2018-08-22
+  city: Cardiff
+  country: UK
+  event: Cardiff Tech Talk
+  title: Deploying and Scaling Microservices with Docker and Kubernetes
+  speaker: denhamparry, soulmaniqbal
+  attend: https://www.meetup.com/Cardiff-Tech-Talk/events/253640409/
+
+
+
+- title: Deploying and Scaling Microservices with Docker and Kubernetes
+  slides: cnw-kube-yolk.yml.html

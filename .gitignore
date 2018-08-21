@@ -14,3 +14,4 @@ node_modules
 prepare-vms/azuredeploy.parameters.json
 prepare-vms/settings/workshop-settings.yaml
 .vscode/last.sql
+cnw-slides/*.html

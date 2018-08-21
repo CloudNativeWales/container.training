@@ -23,6 +23,40 @@ docker-compose up
 ```
 
 ```bash
+docker-compose up -d
+```
+
+```bash
+docker-compose ps
+```
+
+```bash
+docker-compose logs
+```
+
+```bash
+docker-compose logs --tail 10 --follow
+```
+
+```bash
+docker-compose up -d --scale worker=2
+```
+
+```bash
+docker-compose up -d --scale worker=10
+```
+
+## Identifying Bottlenecks
+
+```bash
+httping -c 3 localhost:8001
+```
+
+```bash
+httping -c 3 localhost:8002
+```
+
+```bash
 docker-compose down
 ```
 

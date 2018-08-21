@@ -1,0 +1,45 @@
+title: |
+  Deploying and Scaling Microservices
+  with Kubernetes
+
+chat: "[Gitter](https://gitter.im/cloudnativewales/yolkworkshop)"
+
+gitrepo: github.com/cloudnativewales/container.training
+
+slides: http://yolkworkshop.cloudnativewales.io/
+
+exclude:
+- self-paced
+
+chapters:
+- common/title.md
+- cnw/201808YolkWorkshop/logistics.md
+- kube/intro.md
+- common/about-slides.md
+- common/toc.md
+- - common/prereqs.md
+  - kube/versions-k8s.md
+  - common/sampleapp.md
+  - common/composescale.md
+  - common/composedown.md
+- - kube/concepts-k8s.md
+  - common/declarative.md
+  - kube/declarative.md
+  - kube/kubenet.md
+  - kube/kubectlget.md
+  - kube/setup-k8s.md
+  - kube/kubectlrun.md
+- - kube/kubectlexpose.md
+  - kube/ourapponkube.md
+  - kube/kubectlproxy.md
+  - kube/dashboard.md
+- - kube/kubectlscale.md
+  - kube/daemonset.md
+  - kube/rollout.md
+  - kube/logs-cli.md
+  - kube/logs-centralized.md
+  - kube/helm.md
+  - kube/namespaces.md
+  - kube/whatsnext.md
+  - kube/links.md
+  - common/thankyou.md

@@ -93,7 +93,11 @@ TEMPLATE="""<html>
       <tr>
         <td class="footer">
           Created by Jérôme Petazzoni (<a href="https://twitter.com/jpetazzo">@jpetazzo</a>) and <a href="https://github.com/jpetazzo/container.training/graphs/contributors">contributors</a>.
-          Used by Cloud Native Wales (<a href="https://twitter.com/cloudnativewal">@cloudnativewal</a>) and <a href="https://github.com/cloudnativewales/container.training/graphs/contributors">contributors</a>.
+        </td>
+      </tr>
+      <tr>
+        <td class="footer">
+          Used by Cloud Native Wales (<a href="https://twitter.com/cloudnativewal">@cloudnativewal</a>).
         </td>
       </tr>
     </table>
@@ -133,7 +137,7 @@ recorded_workshops = [i for i in items if i.get("video")]
 template = jinja2.Template(TEMPLATE)
 with open("index.html", "w") as f:
     f.write(template.render(
-    	title="Container Training",
+    	title="Cloud Native Wales: Training",
     	coming_soon=coming_soon,
     	past_workshops=past_workshops,
     	self_paced=self_paced,
@@ -142,6 +146,6 @@ with open("index.html", "w") as f:
 
 with open("past.html", "w") as f:
 	f.write(template.render(
-		title="Container Training",
+		title="Cloud Native Wales: Training",
 		all_past_workshops=past_workshops
 		).encode("utf-8"))

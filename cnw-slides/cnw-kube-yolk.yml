@@ -6,7 +6,7 @@ chat: "[Gitter](https://gitter.im/cloudnativewales/yolkworkshop)"
 
 gitrepo: github.com/cloudnativewales/container.training
 
-slides: http://yolkworkshop.cloudnativewales.io/
+slides: https://training.cloudnativewales.io/
 
 exclude:
 - self-paced

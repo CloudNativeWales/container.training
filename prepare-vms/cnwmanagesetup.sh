@@ -25,7 +25,15 @@ declare -a arr=("Aberaeron" "Aberavon" "Aberbargoed" "Abercarn" "Abercwmboi" "Ab
 
 docker-compose build
 
-for ((i=0;i<$1;i++)); do
+declare startFrom=0
+
+if [ "$2" -gt 0 ]
+then
+	echo "Start from $2"
+	startFrom=$2
+fi
+
+for ((i=startFrom;i<$1;i++)); do
 	{
 		echo "Starting" ${arr[i]}
 		sh cnwsetup.sh ${arr[i]}
